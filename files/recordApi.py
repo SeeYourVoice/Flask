@@ -173,7 +173,7 @@ def send_string() :
 ################ DB insert#################################
     import cx_Oracle
 
-    # conn = cx_Oracle.connect('사용자이름/비밀번호@localhost:1521/xe')
+    # conn = cx_Oracle.connect('사용자 이름/비밀번호@localhost:1521/xe')
     conn = cx_Oracle.connect('ai1_nmr_oracle/smhrd123@project-db-stu.ddns.net:1524/xe')
 
     # DB연결
